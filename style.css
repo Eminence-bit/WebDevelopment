@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.entrance{
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+.reference{
+    display: flex;
+    flex-direction: coloumn;
+    justify-content: center;
+}
+.html,.css,.js{
+    border:solid 2px black;
+    padding:10px;
+    margin-inline:50px;
+    background-color: aquamarine;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.foot{
+    position: absolute;
+    right:0px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    height:70px;
+    width:300px;
+    background: transparent;
+}
+button{
+    background-color: transparent;
+    border:none;
+    outline:none;
+}
+.instagram,.email,.git{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}

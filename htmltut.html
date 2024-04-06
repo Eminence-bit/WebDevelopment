@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/webicon.png"/>
+    <title>About - HTML</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+    <a href="index.html"><img src="images/icons/back.png" alt="Back" class="back"></a>
+    <h1>HTML</h1>
+    <div class="elements">
+        <h2>Elements</h2>
+        <div>
+            <h3>&lt;h1&gt; - &lt;h6&gt;</h3>
+            <p>The HTML heading elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest level and <code>&lt;h6&gt;</code> is the lowest. Headings are defined with decreasing significance (from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>).</p>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <pre><code>&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;</code></pre>
+        </div>
+        <div>
+            <h3>&lt;p&gt;</h3>
+            <p>The HTML <code>&lt;p&gt;</code> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text that are separated from adjacent blocks by vertical blank space and/or first-line indentation.</p>
+            <p>This is an example paragraph. It demonstrates the use of the <code>&lt;p&gt;</code> element in HTML for creating paragraphs of text.</p>
+            <pre><code>&lt;p&gt;This is an example paragraph.&lt;/p&gt;</code></pre>
+        </div>
+        <div>
+            <h3>&lt;a&gt;</h3>
+            <p>The HTML <code>&lt;a&gt;</code> element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.</p>
+            <p>For example, <a href="https://www.example.com">this is a link to example.com</a>.</p>
+            <pre><code>&lt;a href="https://www.example.com"&gt;this is a link to example.com&lt;/a&gt;</code></pre>
+        </div>
+        <div>
+            <h3>&lt;img&gt;</h3>
+            <p>The HTML <code>&lt;img&gt;</code> element embeds an image into the document. It is a replaced element.</p>
+            <p>For example, <img src="https://via.placeholder.com/150" alt="Placeholder Image"></p>
+            <pre><code>&lt;img src="https://via.placeholder.com/150" alt="Placeholder Image"&gt;</code></pre>
+        </div>
+        <div>
+            <h3>&lt;ul&gt; and &lt;li&gt;</h3>
+            <p>The HTML <code>&lt;ul&gt;</code> element represents an unordered list of items, typically rendered as a bulleted list. Each item in the list is represented by a <code>&lt;li&gt;</code> element.</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <pre><code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </div>
+        <div>
+            <h3>&lt;ol&gt; and &lt;li&gt;</h3>
+            <p>The HTML <code>&lt;ol&gt;</code> element represents an ordered list of items, typically rendered as a numbered list. Each item in the list is represented by a <code>&lt;li&gt;</code> element.</p>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+            <pre><code>&lt;ol&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+        </div>
+        <div>
+            <h3>&lt;table&gt;</h3>
+            <p>The HTML <code>&lt;table&gt;</code> element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.</p>
+            <table border="1">
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                </tr>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                </tr>
+                <tr>
+                    <td>Data 3</td>
+                    <td>Data 4</td>
+                </tr>
+            </table>
+            <pre><code>&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 3&lt;/td&gt;
+        &lt;td&gt;Data 4&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+        </div>
+        <div>
+            <h3>&lt;form&gt;</h3>
+            <p>The HTML <code>&lt;form&gt;</code> element represents a document section containing interactive controls for submitting information to a web server.</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <pre><code>&lt;form&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;&lt;br&gt;
+    &lt;input type="text" id="name" name="name"&gt;&lt;br&gt;
+    &lt;label for="email"&gt;Email:&lt;/label&gt;&lt;br&gt;
+    &lt;input type="email" id="email" name="email"&gt;&lt;br&gt;&lt;br&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
+        </div>
+        <div>
+            <h3>&lt;input&gt;</h3>
+            <p>The HTML <code>&lt;input&gt;</code> element is used to create interactive controls for web-based forms in order to accept data from the user.</p>
+            <p>Example:<br>
+            <input type="text" placeholder="Enter your name"><br>
+            <input type="email" placeholder="Enter your email"><br>
+            <input type="submit" value="Submit"></p>
+            <pre><code>&lt;input type="text" placeholder="Enter your name"&gt;&lt;br&gt;
+&lt;input type="email" placeholder="Enter your email"&gt;&lt;br&gt;
+&lt;input type="submit" value="Submit"&gt;</code></pre>
+        </div>
+        <div>
+            <h3>&lt;iframe&gt;</h3>
+            <p>The HTML <code>&lt;iframe&gt;</code> element represents a nested browsing context, embedding another HTML page into the current one.</p>
+            <iframe src="https://www.example.com" height="200" width="300" title="Example"></iframe>
+            <pre><code>&lt;iframe src="https://www.example.com" height="200" width="300" title="Example"&gt;&lt;/iframe&gt;</code></pre>
+        </div>
+        <div>
+            <h3>&lt;header&gt;</h3>
+            <p>The HTML <code>&lt;header&gt;</code> element represents introductory content, typically a group of introductory or navigational aids.</p>
+            <header>
+                <h1>Website Header</h1>
+                <nav>
+                    <a href="#">Home</a> |
+                    <a href="#">About</a> |
+                    <a href="#">Contact</a>
+                </nav>
+            </header>
+            <pre><code>&lt;header&gt;
+    &lt;h1&gt;Website Header&lt;/h1&gt;
+    &lt;nav&gt;
+        &lt;a href="#"&gt;Home&lt;/a&gt; |
+        &lt;a href="#"&gt;About&lt;/a&gt; |
+        &lt;a href="#"&gt;Contact&lt;/a&gt;
+    &lt;/nav&gt;
+&lt;/header&gt;</code></pre>
+        </div>
+        <div>
+            <h3>Character Entities</h3>
+            <p>Character entities are used to display reserved characters in HTML. Here are some examples:</p>
+            <ul>
+                <li>&amp;lt; - less than sign (<)</li>
+                <li>&amp;gt; - greater than sign (>)</li>
+                <li>&amp;amp; - ampersand (&)</li>
+                <li>&amp;quot; - double quotation mark (")</li>
+                <li>&amp;copy; - copyright symbol (&copy;)</li>
+                <li>&amp;reg; - registered trademark symbol (&reg;)</li>
+            </ul>
+            <pre><code>&lt;ul&gt;
+    &lt;li&gt;&amp;lt; - less than sign (&lt;)&lt;/li&gt;
+    &lt;li&gt;&amp;gt; - greater than sign (&gt;)&lt;/li&gt;
+    &lt;li&gt;&amp;amp; - ampersand (&amp;)&lt;/li&gt;
+    &lt;li&gt;&amp;quot; - double quotation mark (")&lt;/li&gt;
+    &lt;li&gt;&amp;copy; - copyright symbol (&amp;copy;)&lt;/li&gt;
+    &lt;li&gt;&amp;reg; - registered trademark symbol (&amp;reg;)&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </div>
+    </div>
+    <div class="next">
+        <a href="htmltut2.html">Next page</a>
+    </div>
+</body>
+</html>
